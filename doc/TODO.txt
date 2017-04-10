@@ -1,0 +1,18 @@
+---TO DO---
+
+-CURRENT-
+v0.1.0
+*Add better documentation
+*Adapt code to new source tree
+
+-FUTURE-
+v0.1.1
+*Fix special input crash
+*Fix redundant function
+
+v0.1.2
+*Prepare for github
+
+v0.2.0
+*Add graphics
+*Make efficent on all operating systems

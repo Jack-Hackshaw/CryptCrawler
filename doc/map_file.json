@@ -1,0 +1,188 @@
+{"map_obj" : [
+	{"features" : [
+		{"name" : "4*4 room", "sizex" : 4, "sizey" : 4,
+         "tries" : 4},
+        
+		{"name" : "8*8 room", "sizex" : 8, "sizey" : 8,
+         "tries" : 8},
+        
+		{"name" : "16*16 room", "sizex" : 16, "sizey" : 16,
+         "tries" : 16},
+        
+		{"name" : "tight hall", "sizex" : 2, "sizey" : 4,
+         "tries" : 2},
+        
+		{"name" : "short hall", "sizex" : 3, "sizey" : 4,
+         "tries" : 3},
+        
+		{"name" : "long hall", "sizex" : 2, "sizey" : 8,
+         "tries" : 4},
+        
+		{"name" : "grand hall", "sizex" : 4, "sizey" : 8,
+         "tries" : 8}
+	]},
+
+	{"joins" : [
+		{"name" : "passage", "symbol" : ".", "rarity" : 0.48,
+         "balance" : 0}
+	]},
+
+	{"details" : [
+		{"name" : "puddle", "sizex" : 1, "sizey" : 1,
+         "symbol" : "w", "rarity" : 0.05},
+        
+		{"name" : "campfire", "sizex" : 1, "sizey" : 1,
+         "symbol" : "f", "rarity" : 0.10},
+        
+		{"name" : "chest", "sizex" : 1, "sizey" : 1,
+         "symbol" : "CU", "rarity" : 0.05},
+        
+		{"name" : "weapon", "sizex" : 1, "sizey" : 1,
+         "symbol" : "wexxx", "rarity" : 0.02},
+        
+		{"name" : "armour", "sizex" : 1, "sizey" : 1,
+         "symbol" : "arxxx", "rarity" : 0.02},
+        
+		{"name" : "item", "sizex" : 1, "sizey" : 1,
+         "symbol" : "ixxx", "rarity" : 0.05},
+        
+		{"name" : "enemy", "sizex" : 1, "sizey" : 1,
+         "symbol" : "exxx", "rarity" : 0.2}
+	]},
+
+	{"quest_features": [        
+		{"name" : "key", "symbol" : "k",
+         "replaces" : ".", "balance" : 3},
+        
+		{"name" : "locked chest", "symbol" : "CL",
+         "replaces" : ".", "balance" : 1},
+        
+		{"name" : "stairs down", "symbol" : "SD",
+         "replaces" : ".", "balance" : 1}
+	]},
+
+	{"items": [
+		{"name": "Healing Salve", "code" : "001",
+         "effect": 15, "rarity" : 1, "level" : 1},
+        
+	    {"name" : "Curse Lifter", "code" : "002",
+         "effect" : 30, "rarity" : 5, "level" : 1},
+        
+		{"name" : "Big Healing Salve", "code" : "003",
+         "effect" : 50, "rarity" : 2, "level" : 1},
+        
+		{"name" : "Cursed Salve", "code" : "004",
+         "effect" : -30, "rarity" : 1, "level" : 1},
+        
+		{"name" : "Huge Healing Salve", "code" : "005",
+         "effect" : 75, "rarity" : 6, "level" : 1},
+        
+		{"name" : "Curing Salve", "code" : "006",
+         "effect" : 100, "rarity" : 3, "level" : 1}
+	]},
+
+	{"enemies": [
+        {"name" : "Vicious Rat", "code" : "001", "attack" : 10,
+         "health" : 20, "level" : 1, "range" : 1, "rarity" : 2 },
+        
+        {"name" : "Imp", "code" : "002", "attack" : 10,
+         "health" : 10, "level" : 2, "range" : 2, "rarity" : 1},
+        
+        {"name" : "Orc", "code" : "003", "attack" : 20,
+         "health" : 30, "level" : 3, "range" : 1, "rarity" : 1},
+        
+        {"name" : "Scuttler", "code" : "004", "attack" : 20,
+         "health" : 20, "level" : 4, "range" : 3, "rarity" : 1},
+        
+        {"name" : "Insane Looter", "code" : "005", "attack" : 30,
+         "health" : 50, "level" : 5, "range" : 1, "rarity" : 1},
+        
+        {"name" : "Skeletal Archer", "code" : "006", "attack" : 30,
+         "health" : 30, "level" : 6, "range" : 4, "rarity" : 1},
+        
+        {"name" : "Fallen Champion", "code" : "007", "attack" : 50,
+         "health" : 50, "level" : 8, "range" : 2, "rarity" : 1},
+        
+        {"name" : "Lesser Demon", "code" : "008", "attack" : 50,
+         "health" : 50, "level" : 11, "range" : 5, "rarity" : 1},
+        
+        {"name" : "Dungeon Master", "code" : "009", "attack" : 70,
+         "health" : 80,  "level" : 15, "range" : 7, "rarity" : 5},
+        
+        {"name" : "Demon King", "code" : "010", "attack" : 100,
+         "health" : 120, "level" : 20, "range" : 7, "rarity" : 2}
+	]},    
+
+	{"weapons": [
+	{"name" : "Blunt Dagger", "attack" : 10, "range" : 2,
+	 "rarity" : 1, "level" : 1, "code" : "000"},
+
+	{"name" : "Rusty Iron Sword", "attack" : 20, "range" : 2,
+         "rarity" : 1, "level" : 1, "code" : "001"},
+        
+        {"name" : "Basic Iron Sword", "attack" : 30, "range" : 2,
+         "rarity" : 1, "level" : 3, "code" : "002"},
+        
+        {"name" : "Basic Steel Sword", "attack" : 40, "range" : 2,
+         "rarity" : 1, "level" : 5, "code" : "003"},
+        
+        {"name" : "Fine Steel Sword", "attack" : 50, "range" : 2,
+         "rarity" : 1, "level" : 7, "code" : "004"},
+        
+        {"name" : "Mystical Sword", "attack" : 60, "range" : 2,
+         "rarity" : 1, "level" : 9, "code" : "005"},
+        
+        {"name" : "Basic Silver Sword", "attack" : 70, "range" : 2,
+         "rarity" : 1, "level" : 12, "code" : "006"},
+        
+        {"name" : "Fine Silver Sword", "attack" : 80, "range" : 2,
+         "rarity" : 1, "level" : 16, "code" : "007"},
+        
+        {"name" : "Ghoul Rend", "attack" : 90, "range" : 3,
+         "rarity" : 1, "level" : 21, "code" : "008"},
+        
+        {"name" : "Meat Cleave", "attack" : 200, "range" : 1,
+         "rarity" : 1, "level" : 21, "code" : "009"},
+        
+        {"name" : "Excalibur", "attack" : 140, "range" : 2,
+         "rarity" : 1, "level" : 22, "code" : "010"}
+	]},
+
+	{"armour": [
+
+	{"name" : "Sturdy Rags", "protection" : [0, 0],
+	 "code" : "000", "level" : 1, "rarity" : 2},
+
+	{"name" : "Worn Leather Armour", "protection" : [2, 2],
+         "code" : "001", "level" : 2, "rarity" : 2},
+        
+        {"name" : "Basic Leather Armour", "protection" : [2, 3],
+         "code" : "002", "level" : 4, "rarity" : 2},
+        
+        {"name" : "Hardened Leather Armour", "protection" : [2, 4],
+         "code" : "003", "level" : 6, "rarity" : 2},
+        
+        {"name" : "Rusty Iron Armour", "protection" : [2, 7],
+         "code" : "004", "level" : 8, "rarity" : 2},
+        
+        {"name" : "Basic Iron Armour", "protection" : [2, 9],
+         "code" : "005", "level" : 10, "rarity" : 2},
+        
+        {"name" : "Fine Iron Armour", "protection" : [3, 11],
+         "code" : "006", "level" : 12, "rarity" : 2},
+        
+        {"name" : "Basic Steel Armour", "protection" : [3, 13],
+         "code" : "007", "level" : 14, "rarity" : 2},
+        
+        {"name" : "Fine Steel Armour", "protection" : [3, 15],
+         "code" : "008", "level" : 16, "rarity" : 2},
+        
+        {"name" : "Godmail", "protection" : [4, 17],
+         "code" : "009", "level" : 19, "rarity" : 2},
+        
+        {"name" : "Demon Skull Armour", "protection" : [5, 19],
+         "code" : "010", "level" : 23, "rarity" : 2}
+
+	]}
+
+]}
