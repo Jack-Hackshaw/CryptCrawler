@@ -1,13 +1,13 @@
 # CryptCrawler
 
-CryptCrawler is a simple RPG made with Python 3. It uses an algorithm to generate a level before handing control to the player. The game currently uses ASCII characters for graphics but wil hopefully be updated with textures soon.
+CryptCrawler is a simple RPG made with Python 3. It uses an algorithm to generate a level before handing control to the player. The game currently uses ASCII characters for graphics but will hopefully be updated with textures soon.
 
 # Licence
 Read LICENCE in the doc directory.
 
 # Installation
 ## Dependancies
-CryptCrawler's only dependancies are pygame and python 3 however, pygame has it's own dependancies which will be covered below.
+CryptCrawler's only dependencies are pygame and python 3 however, pygame has it's own dependencies which will be covered below.
 
 ### Instaling pygame
 #### Linux
@@ -70,12 +70,13 @@ When you start CryptCrawler the user interface will be displayed in command line
 |w+d or d+w   |Move Diagonally Up and to the Right   |
 
 ## History
-This program was orginially developed for the Charles Darwin University Code Fair where it earned the following prizes:
-+ Software Inovation Award (Winner) "for the most original project"
+This program was originally developed for the Charles Darwin University Code Fair where it earned the following prizes:
++ Software Innovation Award (Winner) "for the most original project"
 + Best Novice Coder - Individual (First Runner Up) "for VET and Undergraduate Students with 6 months or less experience" 
 + Best Software Project - VET (People's Choice)
 
-The program was originally done on and off over the course of 2 weeks. It was intended to have graphics, environmental harzards, be fully documented and be availbe online. Some of these features are still to be added.
+The program was originally done on and off over the course of 2 weeks. It was intended to have graphics, environmental hazards, be fully documented and be available online. Some of these features are still to be added.
 
 ## Authors
-Jack Hackshaw: Programming and Music
+Jack Hackshaw: Programming and Music  
+Email: jack.hackshaw@protonmail.com
