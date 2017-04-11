@@ -59,6 +59,11 @@ When you start CryptCrawler the user interface will be displayed in command line
 |esc     |Exit the Game            |      |
 |enter   |Execute Special Command  |(1)   |
 
+### Objectives
+The objective of each level is to reach the door to the next level. The game continues forever until the character dies or the user quits. There are a number of enemies on each level trying to stop you as well healing potions, weapons and armour.  
+
+The door is represented by a "D" character whilst the items and enemies are represented by integers. The items and enemies can be told apart easily since the enemies move and the items do not.
+
 ### Notes
 (1): Special input mode allows you to move diagonally by entering a key combination. It requires that you press e, change your focus to the terminal, type in the combination and press enter.
 #### Combinations
