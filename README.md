@@ -12,7 +12,10 @@ CryptCrawler's only dependancies are pygame and python 3 however, pygame has it'
 ### Instaling pygame
 #### Linux
 ```
-sudo apt-get install mercurial python3-dev python3-numpy libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libsdl1.2-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev
+sudo apt-get install mercurial python3-dev python3-numpy \
+libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libsdl1.2-dev libportmidi-dev \
+libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev
+
 sudo apt-get install mercurial
 hg clone https://bitbucket.org/pygame/pygame
 cd pygame
@@ -65,3 +68,14 @@ When you start CryptCrawler the user interface will be displayed in command line
 |s+a or a+s   |Move Diagonally Down and to the Left  |
 |s+d or d+s   |Move Diagonally Down and to the Right |
 |w+d or d+w   |Move Diagonally Up and to the Right   |
+
+## History
+This program was orginially developed for the Charles Darwin University Code Fair where it earned the following prizes:
++ Software Inovation Award (Winner) "for the most original project"
++ Best Novice Coder - Individual (First Runner Up) "for VET and Undergraduate Students with 6 months or less experience" 
++ Best Software Project - VET (People's Choice)
+
+The program was originally done on and off over the course of 2 weeks. It was intended to have graphics, environmental harzards, be fully documented and be availbe online. Some of these features are still to be added.
+
+## Authors
+Jack Hackshaw: Programming and Music
