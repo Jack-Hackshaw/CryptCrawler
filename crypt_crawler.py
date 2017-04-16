@@ -150,20 +150,15 @@ def enemy_start(map_list, map_file, level):
         
         for enemy in enemy_obj:
             if random_code == enemy["code"]:
-                enemy_data.append
-                (
-                    {
-                    "id" : ids[0],
-                    "pos_x" : ids[1],
-                    "pos_y" : ids[2],
-                    "code" : random_code,
-                    "health" : enemy["health"],
-                    "attack" : enemy["attack"],
-                    "name" : enemy["name"],
-                    "alive" : True,
-                    "removed" : False
-                    }
-                    )
+                enemy_data.append({"id" : ids[0],
+                                   "pos_x" : ids[1],
+                                   "pos_y" : ids[2],
+                                   "code" : random_code,
+                                   "health" : enemy["health"],
+                                   "attack" : enemy["attack"],
+                                   "name" : enemy["name"],
+                                   "alive" : True,
+                                   "removed" : False})
                 
     return enemy_data
             
@@ -343,7 +338,7 @@ def act(chara_data, enemy_data, map_list):
     :param enemy_data: Object containing information about the ememies.
     :param map_list: Matrix to be operated on and searched through
     """
-    
+
     move = False
     
     for enemy in enemy_data:
